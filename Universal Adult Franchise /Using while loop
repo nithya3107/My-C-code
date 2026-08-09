@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{
+    int age;
+    int person=1;
+     
+     while (person<=3)
+     
+     {
+         printf("Enter your age %d: ", person);
+         scanf("%d", &age);
+     if (age >= 18)
+     
+        {
+            printf(" %d eligible for vote \n", person);
+        }
+        else
+        {
+            printf(" %d not eligible for vote \n", person);
+        }
+        person++;
+        
+     }
+        return 0;
+}
