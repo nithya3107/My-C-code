@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main()
+{
+    int age;
+    char name[20];
+     
+     for (int person=1;person<=3;person++)
+     
+     {
+        printf("Enter name for the person:");
+        scanf("%s",name);
+         printf("Enter your age %d: ", person);
+         scanf("%d", &age);
+     if (age >= 18)
+     
+        {
+            printf(" %s eligible for vote \n", name);
+        }
+        else
+        {
+            printf(" %s not eligible for vote \n", name);
+        }
+        
+     }
+        return 0;
+}
