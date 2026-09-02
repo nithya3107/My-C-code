@@ -4,7 +4,7 @@ int main()
     int mark;
     printf("Enter your mark of the subject:");
     scanf("%d",&mark);
-    if(mark>=90)
+    if(mark>=90 &&mark<=100)
     {
         printf("Your grade:A");
     }
