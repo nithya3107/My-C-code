@@ -6,7 +6,7 @@ int main()
     long int roll_no[41];
     printf("\nEnter the no.of students:");
     scanf("%d",&student);
-    for(i=1; i< student; i++)
+    for(i=1; i<=student; i++)
     {
         printf("Enter the name of the student %d:",i);
         scanf("%s", name[i]);
