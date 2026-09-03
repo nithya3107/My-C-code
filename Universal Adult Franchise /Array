@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main()
+{
+    char name[41][20],department[41][10];
+    int i,student,semester[41],year[41];
+    long int roll_no[41];
+    printf("\nEnter the no.of students:");
+    scanf("%d",&student);
+    for(i=1; i<=student; i++)
+    {
+        printf("Enter the name of the student %d:",i);
+        scanf("%s", name[i]);
+        printf("Enter the department of the student %d:",i);
+        scanf("%s", department[i]);
+        printf("Enter the roll_no of the student %d:",i);
+        scanf("%ld", &roll_no[i]);
+        printf("Enter the semester of the student %d:",i);
+        scanf("%d", &semester[i]);
+        printf("Enter the year of the student %d:",i);
+        scanf("%d", &year[i]);
+        printf("\nName of the student: %s",name[i]);
+        printf("\nDepartment of the student: %s",department[i]);
+        printf("\nRoll_no of the student: %ld",roll_no[i]);
+        printf("\nSemester of the student: %d",semester[i]);
+        printf("\nYear of the student: %d",year[i]);
+
+    }
